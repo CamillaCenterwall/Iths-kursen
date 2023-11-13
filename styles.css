@@ -1,0 +1,129 @@
+body {background-color: #FCFAF7;}
+/* Mina bakgrundsfärger
+Main Bright #52D3C0 
+Main Soft   #A4E4DB
+Main Light  #D0F2ED
+Main Dark   #06473E
+Main linearGradient 
+
+
+*/
+/* Mina text färger
+Text #000000
+Text Soft #444240 */
+
+/* Mina highlights
+
+*/
+/* icon #254E5A  */
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Raleway, Helvetica, sans-serif;
+    background-color: #FCFAF7;
+    color: #000;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+  }
+  
+  nav {
+    margin-top: 20px; 
+    align-content: end; 
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    font-size: 16px;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .section-content {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  /* Customize the styles as per your preferences */
+
+  /* Basic styling for the card */
+.card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  /* Style the image within the card */
+  .card img {
+    width: 150px; /* Adjust the image width as needed */
+    height: auto;
+    margin-right: 20px; /* Add spacing between the image and content */
+  }
+  
+  /* Style the card content */
+  .card-content {
+    flex: 1; /* Allow the content to expand and take up available space */
+  }
+  
+  .card-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    font-size: 16px;
+  }
+  
+  

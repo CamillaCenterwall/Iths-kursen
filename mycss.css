@@ -1,0 +1,139 @@
+/* Body parts */
+header{
+    width: 100%;
+    height: 200px;
+    /* HeaderShadow */
+    box-shadow: 0px 17px 60px 45px rgba(255, 255, 255, 0.40);
+    }
+    
+body{
+    background-color: #FCFAF7; 
+    align-content: center; 
+    font-family: 'Raleway';
+
+        }
+  /* Basic styling for the card */
+  .card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  /* Style the image within the card */
+  .card-img {
+    width: 150px; /* Adjust the image width as needed */
+    height: auto;
+    margin-right: 20px; /* Add spacing between the image and content */
+  }
+  
+  /* Style the card content */
+  .card-content {
+    flex: 1; /* Allow the content to expand and take up available space */
+  }
+  
+  .card-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    font-size: 16px;
+  }
+#Fikacard {
+    background-image: url("BlueSwirls.jpg");  width: 100%; height: auto;
+    
+      }
+
+#Herosection {
+    background-color: white;
+    align-items: center;
+    
+}
+
+nav {
+display: flex;
+width: 100%;
+height: 25rem;
+padding: 2.5rem 12.5rem;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
+}
+.navitem {
+    padding: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+div {
+
+    width: fit-content;
+    border: 0px;
+    padding: 50px;
+    margin: 20px;
+}
+
+article {
+    width: 300px;
+    border: 0px;
+    padding: 50px;
+    margin: 20px;
+}
+
+#portfolio_content {
+    width: 300px;
+    border: 0px;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Text */
+h1 h2 h3 h4 p {
+    font-family: font-family: 'Raleway', sans-serif;
+    color: black;   
+}
+h1 {
+    font-size: 36px;
+    font-style: normal;
+}
+.h1italic {
+    font-size: 36px;
+    font-style: italic;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 24px;
+    font-style: normal;
+}
+.h3italic {
+    font-size: 24px;
+    font-style: italic;
+}
+
+/* Colors */
+/* header and footer gradients */
+#grad1 {
+  height: 200px;
+  width: 100%;
+  background-color: #B2D9D1; /* For browsers that do not support gradients */
+  background: var(--TopGradiant, linear-gradient(180deg, #B2D9D1 5.08%, #C4E9DF 23.42%, #CFF2ED 33.9%, #D6F6F5 50.12%, #E9F5F4 61.94%, rgba(255, 252, 243, 0.92) 76.13%, rgba(255, 250, 236, 0.88) 85.93%, rgba(255, 251, 242, 0.72) 95.06%, rgba(255, 251, 242, 0.29) 100%));
+}
+
